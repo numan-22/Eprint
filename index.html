@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Eprint</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <!-- Start Header Topbar -->
+        <section class="header-bar-sec bg-lgray">
+            <!-- Start Header Container -->
+            <div class="header-bar-container container ml-sm-auto mr-sm-0 pr-sm-5">
+                <!-- Start Header Row -->
+                <div class="header-bar-row row justify-content-sm-end">
+                    <!-- Start col 1 -->
+                    <div class="header-bar-btn register">
+                        <a href="#" class="d-inline-block px-3 py-2 text-dgray text-decoration-none"><span><img src="img/topbar/register_icon.png" class="mr-2" alt="Pen icon">Register</span></a>
+                    </div>
+                    <!-- End col 1 -->
+                    <!-- Start col 2 -->
+                    <div class="header-bar-btn login">
+                        <a href="#" class="d-inline-block px-3 py-2 text-dgray text-decoration-none"><span><img src="img/topbar/login_icon.png" class="mr-2" alt="Pen icon">Log in</span></a>
+                    </div>
+                    <!-- End col 2 -->
+                    <!-- Start col 3 -->
+                    <div class="header-bar-btn wishlist">
+                        <a href="#" class="d-inline-block px-3 py-2 text-dgray text-decoration-none"><span><img src="img/topbar/wishlist_icon.png" class="mr-2" alt="Pen icon">Wishlist</span></a>
+                    </div>
+                    <!-- End col 3 -->
+                    <!-- Start col 4 -->
+                    <div class="header-bar-btn compare">
+                        <a href="#" class="d-inline-block px-3 py-2 text-dgray text-decoration-none"><span><img src="img/topbar/compare_icon.png" class="mr-2" alt="Pen icon">Compare product list</span></a>
+                    </div>
+                    <!-- End col 4 -->
+                </div>
+                <!-- End Header Row -->
+            </div>
+            <!-- End Header Container -->
+        </section>
+        <!-- End Header Topbar -->
+        <!-- Start Navigation -->
+        <section class="navigation-sec">
+            <!-- Start Navigation Container -->
+            <div class="navigation-container px-4 pr-md-0">
+                <!-- Start Navigation Content -->
+                <div class="navigation-content">
+                    <nav class="navbar navbar-expand-lg align-items-center p-0">
+                        <!-- Brand -->
+                        <a class="navbar-brand" href="/"><img src="img/eprint_logo.png" alt="Print Media Logo"></a>
+
+                        <!-- Toggler/collapsibe Button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span><i class="fas fa-bars text-orange"></i></span>
+                    </button>
+
+                        <!-- Navbar links -->
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav ml-auto align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-lblack font-rob font-weight-bold" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-lblack font-rob font-weight-bold" href="#">ABOUT E-CARD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-lblack font-rob font-weight-bold" href="#">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-lblack font-rob font-weight-bold" href="#">CONTACT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-lblack font-rob font-weight-bold" href="#">LOGIN</a>
+                                </li>
+                                <li class="nav-item item">
+                                    <a class="nav-link bg-orange text-white" href="#"><span class="d-inline-block mr-2"><img src="img/cart.png" alt=""></span> 0 ITEM(S)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <!-- End Navigation Content -->
+            </div>
+            <!-- End Navigation Container -->
+        </section>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+    <!-- Start Banner Section -->
+    <section class="banner-sec">
+        <!-- Start Banner Custom Container -->
+        <div class="banner-container">
+            <!-- Start Banner Slider -->
+            <div class="banner-slider owl-carousel owl-theme banner">
+                <!-- Start Slider Item 1 -->
+                <div class="item">
+                    <div class="banner-row row justify-content-between no-gutters">
+                        <!-- Start COl 1 -->
+                        <div class="banner-main-col banner-main-col-1 bg-lgray">
+                            <div class="banner-inner-col">
+                                <h1>let Us Help You With All Of Your <span class="text-orange">Printing</span> Need</h1>
+                                <h4 class="text-orange my-3 mb-md-5 ">Books</h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="start-button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End COl 1 -->
+                        <!-- Start COl 2 -->
+                        <div class="banner-main-col banner-main-col-2 bg-orange">
+                            <div class="banner-inner-col position-relative">
+                                <img src="img/banner/books.png" alt="">
+                            </div>
+                        </div>
+                        <!-- End COl 2 -->
+                    </div>
+                </div>
+                <!-- End Slider Item 1 -->
+                <div class="item">
+                    <div class="banner-row row justify-content-between no-gutters">
+                        <!-- Start COl 1 -->
+                        <div class="banner-main-col banner-main-col-1 bg-lgray">
+                            <div class="banner-inner-col">
+                                <h1>let Us Help You With All Of Your <span class="text-orange">Printing</span> Need</h1>
+                                <h4 class="text-orange my-3 mb-md-5 ">Books</h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="start-button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End COl 1 -->
+                        <!-- Start COl 2 -->
+                        <div class="banner-main-col banner-main-col-2 bg-orange">
+                            <div class="banner-inner-col position-relative">
+                                <img src="img/banner/books.png" alt="">
+                            </div>
+                        </div>
+                        <!-- End COl 2 -->
+                    </div>
+                </div>
+                <!-- End Slider Item 1 -->
+                <div class="item">
+                    <div class="banner-row row justify-content-between no-gutters">
+                        <!-- Start COl 1 -->
+                        <div class="banner-main-col banner-main-col-1 bg-lgray">
+                            <div class="banner-inner-col">
+                                <h1>let Us Help You With All Of Your <span class="text-orange">Printing</span> Need</h1>
+                                <h4 class="text-orange my-3 mb-md-5 ">Books</h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="start-button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End COl 1 -->
+                        <!-- Start COl 2 -->
+                        <div class="banner-main-col banner-main-col-2 bg-orange">
+                            <div class="banner-inner-col position-relative">
+                                <img src="img/banner/books.png" alt="">
+                            </div>
+                        </div>
+                        <!-- End COl 2 -->
+                    </div>
+                </div>
+                <!-- End Slider Item 1 -->
+                <div class="item">
+                    <div class="banner-row row justify-content-between no-gutters">
+                        <!-- Start COl 1 -->
+                        <div class="banner-main-col banner-main-col-1 bg-lgray">
+                            <div class="banner-inner-col">
+                                <h1>let Us Help You With All Of Your <span class="text-orange">Printing</span> Need</h1>
+                                <h4 class="text-orange my-3 mb-md-5 ">Books</h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="start-button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End COl 1 -->
+                        <!-- Start COl 2 -->
+                        <div class="banner-main-col banner-main-col-2 bg-orange">
+                            <div class="banner-inner-col position-relative">
+                                <img src="img/banner/books.png" alt="">
+                            </div>
+                        </div>
+                        <!-- End COl 2 -->
+                    </div>
+                </div>
+                <!-- End Slider Item 1 -->
+                <div class="item">
+                    <div class="banner-row row justify-content-between no-gutters">
+                        <!-- Start COl 1 -->
+                        <div class="banner-main-col banner-main-col-1 bg-lgray">
+                            <div class="banner-inner-col">
+                                <h1>let Us Help You With All Of Your <span class="text-orange">Printing</span> Need</h1>
+                                <h4 class="text-orange my-3 mb-md-5 ">Books</h4>
+                                <div class="banner-btn">
+                                    <a href="#" class="start-button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End COl 1 -->
+                        <!-- Start COl 2 -->
+                        <div class="banner-main-col banner-main-col-2 bg-orange">
+                            <div class="banner-inner-col position-relative">
+                                <img src="img/banner/books.png" alt="">
+                            </div>
+                        </div>
+                        <!-- End COl 2 -->
+                    </div>
+                </div>
+                <!-- End Slider Item 1 -->
+            </div>
+            <!-- End Banner Slider -->
+        </div>
+        <!-- End Banner Custom Container -->
+    </section>
+    <!-- End Banner Section -->
+
+
+    <!--types of card  -->
+    <section class="type-card-sec">
+        <div class="container">
+            <div class="text-center">
+                <div class="text-1 text-orange font-bold">
+                    <h4>TYPES OF CARD</h4>
+                </div>
+                <div class="text-para text-dgray card-para">
+                    <p>We take immense pleasure to introduce, eprintpost.com which is a web-based printing marketplace, facilitating all
+                        types of printing services. We provide all printing services on a single platform with very competitive prices and great
+                        quality work to our retail as well as corporate customers. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pro card carousal -->
+    <section class="pro-sec">
+        <div class="container">
+            <div class="owl-carousel owl-theme pro-card">
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>01</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>STANDARD
+                                CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>02</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>PRO CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>03</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>PRO CROP
+                                CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>01</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>PRO CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>02</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>PRO CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-1 bg-orange text-center">
+                        <div class="card-num">
+                            <h1>03</h1>
+                        </div>
+                        <div class="card-head text-white">
+                            <h2>PRO CROP
+                                CARD</h2>
+                        </div>
+                        <div class="text-para text-white">
+                            <p>It is a long established fact
+                                that a reader will be district
+                                by the readable content of
+                                a page when looking at its
+                                layout. The point of using
+                                Lorem Ipsum is that it has
+                                a more-or-less normal
+                                able English.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feature heiglight -->
+    <section class="feature-sec">
+        <div class="container">
+            <div class="text-1 text-orange font-bold text-center">
+                <h4>FEATURE HIGHLIGHTS</h4>
+            </div>
+        </div>
+        <!-- feature carousal -->
+        <div class="owl-carousel owl-theme featured">
+            <div class="item">
+                <div class="feature-item">
+                    <div class="lock">
+                        <img src="img/istockphoto-1183143306-612x612.png">
+                    </div>
+                    <div class="feature-text">
+                        <p>Encryptionn can help protect data you
+                            send, receive, and store, using a device.
+                            That can include text messages Stored
+                            on your smartphone, running I ogs saved
+                            on your fitness watch, and banking
+                            information sent through your online
+                            account 
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="feature-item">
+                    <div class="lock">
+                        <img src="img/istockphoto-1183143306-612x612.png">
+                    </div>
+                    <div class="feature-text">
+                        <p>Encryptionn can help protect data you
+                            send, receive, and store, using a device.
+                            That can include text messages Stored
+                            on your smartphone, running I ogs saved
+                            on your fitness watch, and banking
+                            information sent through your online
+                            account 
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="feature-item">
+                    <div class="lock">
+                        <img src="img/istockphoto-1183143306-612x612.png">
+                    </div>
+                    <div class="feature-text">
+                        <p>Encryptionn can help protect data you
+                            send, receive, and store, using a device.
+                            That can include text messages Stored
+                            on your smartphone, running I ogs saved
+                            on your fitness watch, and banking
+                            information sent through your online
+                            account 
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="feature-item">
+                    <div class="lock">
+                        <img src="img/istockphoto-1183143306-612x612.png">
+                    </div>
+                    <div class="feature-text">
+                        <p>Encryptionn can help protect data you
+                            send, receive, and store, using a device.
+                            That can include text messages Stored
+                            on your smartphone, running I ogs saved
+                            on your fitness watch, and banking
+                            information sent through your online
+                            account 
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="item">
+                <div class="feature-item">
+                    <div class="lock">
+                        <img src="img/istockphoto-1183143306-612x612.png">
+                    </div>
+                    <div class="feature-text">
+                        <p>Encryptionn can help protect data you
+                            send, receive, and store, using a device.
+                            That can include text messages Stored
+                            on your smartphone, running I ogs saved
+                            on your fitness watch, and banking
+                            information sent through your online
+                            account 
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+            
+
+        </div>
+    </section>
+    <!-- about us -->
+    <section class="about-sec">
+        <div class="container-fluid">
+            <div class="row about-row">
+                <div class="col-md-6">
+                    <img src="img/Group 79.png">
+                </div>
+                <div class="col-md-6 about-col">
+                    <div class="text-1 text-orange ">
+                        <h3>ABOUT US</h3>
+                    </div>
+                    <div class="text-para text-dgray about-para">
+                        <p>It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has a more-or
+                            less normal distribution of letters, as opposed to using
+                            'Content here, content here', making it look like readable
+                            English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum.
+                        </p>
+                    </div>
+                    <!-- about list -->
+                    <div class="row">
+                        <div class="col-4">
+                            <ul class="about-list">
+                                <li>Muugs</li>
+                                <li>Cards</li>
+                                <li>Cups</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="about-list">
+                                <li>Shirts</li>
+                                <li>Bags</li>
+                                <li>Tickets</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="about-list">
+                                <li>Pillow</li>
+                                <li>Books</li>
+                                <li>Letterheads</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- get start button -->
+                    <div class="start-button-pos">
+                        <a href="#" class="start-button">Start Button</a>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+    </section>
+    <!-- about e card -->
+    <section class="ecard-sec">
+        <div class="container-fluid">
+            <div class="text-1 text-orange font-bold text-center">
+                <h3>ABOUT E-CARD</h3>
+            </div>
+            <div class="row ecard-row">
+                <div class="col-md-6 ecard-image">
+                    <img src="img/Asset 2.png">
+                </div>
+                <div class="col-md-6 ecard-col">
+                    <div class="text-1 bold text-lblack about-ecard-text">
+                        <h5>Business Card</h5>
+                    </div>
+                    <div class="text-para text-dgray about-ecard-para">
+                        <p class="about-ecard-text">It is a long established fact that a reader will be distracted
+                            by the readable content of a page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has a more-or
+                            less normal distribution of letters, as opposed to using
+                            'Content here, content here', making it look like readable
+                            English. Many desktop publishing packages and web page
+                            editors now use Lorem Ipsum.
+                        </p>
+                        <p>
+                            As their default model text, and a search for 'lorem ipsum'
+                            will uncover many web sites still in their infancy. Various
+                            versions have evolved over the years, sometimes by
+                            accident, sometimes on purpose (injected humour and the
+                            like).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="start-button">Get Started</a>
+            </div>
+        </div>
+    </section>
+    <!-- business card sec -->
+    <section class="business-card-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="business-card">
+                        <div class="business-card-overlay">
+                            <div class="business-card-text">
+                                <div class="text-1 text-white card-bold">
+                                    <h5>Business Cards
+                                        & letter Head
+                                    </h5>
+                                </div>
+                                <div class="card-name">
+                                    <a href="#">Business Cards</a>
+                                    <a href="#">Letter heads</a>
+                                    <a href="#">Incitation Cards</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="business-card-2">
+                        <div class="business-card-overlay">
+                            <div class="business-card-text">
+                                <div class="text-1 text-white card-bold">
+                                    <h5>Business Cards
+                                        & letter Head
+                                    </h5>
+                                </div>
+                                <div class="card-name">
+                                    <a href="#">Business Cards</a>
+                                    <a href="#">Letter heads</a>
+                                    <a href="#">Incitation Cards</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="banner-card-3">
+                                <div class="business-card-overlay">
+                                    <div class="business-card-text">
+                                        <div class="text-1 text-white card-bold">
+                                            <h5>Business Cards
+                                                & letter Head
+                                            </h5>
+                                        </div>
+                                        <div class="card-name">
+                                            <a href="#">Business Cards</a>
+                                            <a href="#">Letter heads</a>
+                                            <a href="#">Incitation Cards</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="banner-card-4">
+                                <div class="business-card-overlay">
+                                    <div class="business-card-text">
+                                        <div class="text-1 text-white card-bold">
+                                            <h5>Business Cards
+                                                & letter Head
+                                            </h5>
+                                        </div>
+                                        <div class="card-name">
+                                            <a href="#">Business Cards</a>
+                                            <a href="#">Letter heads</a>
+                                            <a href="#">Incitation Cards</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- perfect sec -->
+    <section class="perfect-sec">
+        <div class="perfect-bg">
+            <div class="text-1 text-white text-center font-rob">
+                <h1>PERFECT</h1>
+            </div>
+            <div class="text-1 text-white text-center font-rob">
+                <h5>EXPERIENCE & HIGH QUALITY SERVICE</h5>
+            </div>
+            <div class="text-center perfect-button">
+                <a href="#" class="start-button watch">Watch Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial-sec">
+        <div class="quote-bg">
+            <div class="container">
+                <div class="testimonial-heading">
+                    <div class="text-center text-1 text-orange font-rob">
+                        <h3>Testimonial</h3>
+                    </div>
+                    <div class="text-center text-2 font-rob">
+                        <h6>WE LOVE OUT CLIENTS</h6>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- carousal -->
+            <div class="owl-carousel-parent testimonial">
+                <div class="owl-carousel testimonial">
+                    <div class="item" >
+                      <div class="image-1">
+                        <img src="img/50-Long-Haircuts-Hairstyle-Tips-for-Men-2.png">
+                      </div>
+                      <div class="testimonial-text">
+                        <div class="text-para text-center-hide text-lblack font-rob">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                              a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                              content here', making it look like readable English
+                            </p>
+                            <div class="testimonial-name font-rob">
+                                <h5>SUSAN</h5>
+                            </div>
+                            <div class="text-2">
+                                <h6>Business Man</h6>
+                            </div>
+                        </div>
+                       
+                      </div>
+                      
+                    </div>
+                   <div class="item" >
+                    <div class="image-1">
+                      <img src="img/b29ac00bbfe64beefef68bd91016d3ce.png">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="text-para text-center-hide text-lblack font-rob">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                              a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                              content here', making it look like readable English
+                            </p>
+                            <div class="testimonial-name font-rob">
+                                <h5>SUSAN</h5>
+                            </div>
+                            <div class="text-2">
+                                <h6>Business Man</h6>
+                            </div>
+                        </div>
+                        
+                    </div>
+                 </div>
+                 <div class="item" >
+                    <div class="image-1">
+                      <img src="img/50-Long-Haircuts-Hairstyle-Tips-for-Men-2.png">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="text-para text-center-hide text-lblack font-rob">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                              a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                              content here', making it look like readable English
+                            </p>
+                            <div class="testimonial-name font-rob">
+                                <h5>SUSAN</h5>
+                            </div>
+                            <div class="text-2">
+                                <h6>Business Man</h6>
+                            </div>
+                        </div>
+                        
+                    </div>
+                 </div>
+                   <div class="item">
+                    <div class="image-1">
+                      <img src="img/50-Long-Haircuts-Hairstyle-Tips-for-Men-2.png">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="text-para text-center-hide text-lblack font-rob">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                              a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                              content here', making it look like readable English
+                            </p>
+                            <div class="testimonial-name font-rob">
+                                <h5>SUSAN</h5>
+                            </div>
+                            <div class="text-2">
+                                <h6>Business Man</h6>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="item">
+                    <div class="image-1">
+                      <img src="img/7fed69259ea5f1ce891d62b145ceac18.png">
+                    </div>
+                    <div class="testimonial-text">
+                        <div class="text-para text-center-hide text-lblack font-rob">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                              of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                              a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                              content here', making it look like readable English
+                            </p>
+                            <div class="testimonial-name font-rob">
+                                <h5>SUSAN</h5>
+                            </div>
+                            <div class="text-2">
+                                <h6>Business Man</h6>
+                            </div>
+                        </div>
+                      
+                    </div>
+                 </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- contact us -->
+    <section class="contact-us">
+        <div class="contact-bg">
+            <div class="container">
+                <div class="text-1 text-center text-orange contact-heading">
+                    <h3>CONTACT US</h3>
+                </div>
+                <div class="text-center contact-form">
+                    <form>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Email Address">
+                        <textarea rows="1" placeholder="Message"></textarea>
+                        <button type="Submit" class="start-button">submit</button>
+                       
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-row">
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <div class="footer-heading">
+                        <p>CONTACT INFO</p>
+                        <a href="tel:+359123 456789"><i class="fas fa-mobile-alt"></i> +359123 456789</a>
+                        <a href="#"><i class="far fa-clock"></i> Mon--Fri 10:00 - 19:00</a>
+                        <a href="mailto:yourstore@mail.com"><i class="far fa-envelope"></i> yourstore@mail.com</a>
+                        <a href="tel:+359123 456789"><i class="fas fa-map-marker-alt"></i> London, United Kingdom</a>
+                        <a href="tel:+359123 456789"><i class="fas fa-archway"></i>Glasgow str. 45</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <div class="footer-heading">
+                        <p>INFORMATION</p>
+                        <a href="#">Sitemap</a>
+                        <a href="#">Shipping & returns</a>
+                        <a href="#">Privacy notice</a>
+                        <a href="#">Conditions of Use</a>
+                        <a href="#">About us</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 footer-col">
+                   <div class="bg-orange subscriber-block">
+                       <div class="text-white text-center">
+                           <p>NEWSLETTER.TITLE</p>
+                       </div>
+                       <div class="subscribe-form">
+                           <form>
+                              <input type="text" placeholder="Enter Your Email here.."> 
+                              <input type="submit" value="Subscribe">
+                           </form>
+                        </div>
+                        <div class="footer-icon">
+                            <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="fb"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <div class="footer-heading">
+                        <p>CUSTOMER SERVICE</p>
+                        <a href="#">Search</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Recently viewed product</a>
+                        <a href="#">Compare products list</a>
+                        <a href="#">New products</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-col ">
+                    <div class="footer-heading">
+                        <p>MY ACCOUNT</p>
+                        <a href="#">My account</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Addresses</a>
+                        <a href="#">Shopping cart</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Apply for vendor account</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-text">
+                    <p>Made with  love at <span class="text-orange">Coding Agents</span></p>
+                </div>
+                <div class="footer-bottom-text">
+                    <p>Copyright © 2021 EPrintPost. All rights reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $('.banner-slider.owl-carousel.banner').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <!-- pro card -->
+    <script>
+        $('.owl-carousel.pro-card').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: true,
+            dots:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+    <!-- feature carousal -->
+    <script>
+        $('.owl-carousel.featured').owlCarousel({
+            loop: true,
+            margin: 5,
+            nav: false,
+            dots:true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <!-- testimonial -->
+    <script>
+       var owl = $(".owl-carousel.testimonial");
+owl.owlCarousel({
+  loop: true,
+  center: true,
+  margin:0,
+  nav: true,
+  dots:false,
+  animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 3
+    }
+  }
+});
+
+// $(".center").bind(function(){
+//     console.log("here");
+//     var class_name = $(this).data("center");
+//     $(".text-center-hide").hide();
+//     $("."+class_name).show();
+// })
+
+    </script>
+</body>
+
+</html>
+
+
